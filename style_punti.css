@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+:root {
+--linkmassa: url("https://i.ibb.co/mTdNXNd/logo21.png");
+--linkbudrio: url("https://i.ibb.co/3dd2R29/budrio.png");
+--linkeurotec: url("https://i.ibb.co/QJyksts/progresso.png");
+--linkelenos: url("https://i.ibb.co/TBX34LY/elenos.png");
+--linkanzola: url("https://i.ibb.co/6mcWsr7/anzola.png"); 
+--linkmasi: url("https://i.ibb.co/0m8x7WN/polmasi.png"); 
+--linklugo: url("https://i.ibb.co/VM3dxWF/involley.png");  
+--linkpontevecchio: url("https://i.ibb.co/qn9H4hd/pontevecchio.png"); 
+}
+
+body {
+    background-color: rgba(35,3,255,255);
+    margin: auto;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    text-align: center;
+    font-size: 5vw;
+  }
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background: rgba(35,3,255,255);
+    color: rgba(255,20,134,255);
+}
+  
+.header a{
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.box, .space, .label {display:flex;}
+.container {display:grid; float:left; font-family: 'Roboto Mono', monospace; max-width:100%; margin-top: 20px;}
+.sgrlogo, .boxservice, .labelsets, .labelpoints {display:none;}
+.boxhometeam, .boxawayteam {background: white;color:rgba(35,3,255,255);}
+.boxhomesets, .boxawaysets {background: rgba(255,20,134,255);color: white;width: 10vw}
+.boxpoints {background: rgba(130,130,130,255);color: white;width: 20vw;}
+.logo {max-width:75%;height:auto; border:none;}
+
+/*---- VOLLEY --------*/
+.containervolley {float: left; grid-template-columns: 0 40vw 2vw 40vw 0; grid-template-rows: 10vw 12vw 10vw; font-size: 6vw; gap: 1vw;}
+.boxhometeam, .boxawayteam {font-size: 5vw; justify-content:center; align-items:center; }
+
+
+/* posizionamento tabella */
+
+.boxhomesets {grid-column: 2/3; grid-row: 1/2; justify-content:center; align-items:center;}
+.boxhometeam { grid-column: 2/3; grid-row: 2/3; justify-content:center; align-items:center;}
+.boxhomepoints {grid-column: 2/3; grid-row: 3/4; justify-content:center; align-items:center;}
+
+
+.boxawaysets {grid-column: 4/5; grid-row: 1/2; justify-content:center; align-items:center;}
+.boxawayteam { grid-column: 4/5; grid-row: 2/3; justify-content:center; align-items:center;}
+.boxawaypoints {grid-column: 4/5; grid-row: 3/4; justify-content:center; align-items:center;}
+
