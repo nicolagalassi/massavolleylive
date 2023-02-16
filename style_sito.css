@@ -1,14 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
-:root {
---linkmassa: url("https://i.ibb.co/mTdNXNd/logo21.png");
---linkbudrio: url("https://i.ibb.co/3dd2R29/budrio.png");
---linkeurotec: url("https://i.ibb.co/QJyksts/progresso.png");
---linkelenos: url("https://i.ibb.co/TBX34LY/elenos.png");
---linkanzola: url("https://i.ibb.co/6mcWsr7/anzola.png"); 
---linkmasi: url("https://i.ibb.co/0m8x7WN/polmasi.png"); 
---linklugo: url("https://i.ibb.co/VM3dxWF/involley.png");  
---linkpontevecchio: url("https://i.ibb.co/qn9H4hd/pontevecchio.png"); 
-}
 
 body {
     background-color: rgba(35,3,255,255);
@@ -16,7 +6,7 @@ body {
     font-family: 'Roboto Mono', monospace;
     color: white;
     text-align: center;
-    font-size: 5vw;
+    font-size: 4.5vw;
   }
 
 .header {
@@ -40,10 +30,10 @@ body {
 .boxhomesets{background: rgba(255,20,134,255);color: white;}
 .boxawaysets {background: rgba(255,20,134,255);color: white;}
 
-.logo {max-width:75%;height:auto; border:none;margin-bottom: 20px;}
+.logo {max-width:60%;height:auto; border:none;margin-bottom: 20px;}
 
 /*---- VOLLEY --------*/
-.containervolley {float: left; grid-template-columns: 0 0 0 60vw 15vw 10vw; grid-template-rows: 15vw 15vw; font-size: 8vw; gap: 1vw;}
+.containervolley {float: left; grid-template-columns: 0 0 0 60vw 15vw 10vw; grid-template-rows: 15vw 15vw 20vw; font-size: 8vw; gap: 1vw;}
 .boxhometeam, .boxawayteam {font-size: 7vw; justify-content:center; align-items:center;}
 
 
