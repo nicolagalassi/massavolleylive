@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
 
 body {
-    background-color: rgba(35,3,255,255);
+    background-color: #0459f5;
     margin: auto;
     font-family: 'Roboto Mono', monospace;
     color: white;
@@ -12,7 +12,7 @@ body {
 .header {
     text-align: center;
     padding: 20px;
-    background: rgba(35,3,255,255);
+    background: #0459f5;
     color: rgba(255,20,134,255);
 }
   
@@ -25,8 +25,8 @@ body {
 .box, .space, .label {display:flex;}
 .boxhomepoints, .boxawaypoints {display: none;}
 .container {display:grid; float:left; font-family: 'Roboto Mono', monospace; max-width:100%; margin-top: 20px; }
-.boxhometeam {background: white;color: rgba(35,3,255,255); margin-left: 5px; }
-.boxawayteam {background: white;color: rgba(35,3,255,255); margin-left: 5px; }
+.boxhometeam {background: white;color: #0459f5; margin-left: 5px; }
+.boxawayteam {background: white;color: #0459f5; margin-left: 5px; }
 .boxhomesets{background: rgba(255,20,134,255);color: white;}
 .boxawaysets {background: rgba(255,20,134,255);color: white;}
 
@@ -45,7 +45,7 @@ body {
 .button {
     font-family: 'Roboto Mono', monospace;
     border-radius: 40%;
-    border: 1vw solid rgba(35,3,255,255);
+    border: 1vw solid #0459f5;
     height: 50%;
     width: 20vw;
     color: white;
