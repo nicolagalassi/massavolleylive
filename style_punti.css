@@ -22,10 +22,10 @@ body {
     color: white;
 }
 
-.box, .space, .label ,.logoh {display:flex;}
+.box, .space, .label ,.logoh  {display:flex;}
 .container {display:grid;font-family: 'Roboto Mono', monospace; max-width:100%; margin-top: 20px;}
-.sgrlogo, .boxservice {display:none;}
-.boxhometeam, .boxawayteam {background: white;color:#0459f5;}
+.sgrlogo, .boxservice, .boxhometeam, .boxawayteam{display:none;}
+.boxhomename, .boxawayname {background: white;color:#0459f5;}
 .boxhomesets{background: rgba(255,20,134,255);color: white;}
 .boxawaysets {background: rgba(255,20,134,255);color: white;}
 .boxpoints {background: rgba(130,130,130,255);color: white;}
@@ -36,18 +36,18 @@ body {
 
 /*---- VOLLEY --------*/
 .containervolley {float:inherit ;grid-template-columns: 0 2fr 1fr 2fr 0; grid-template-rows: 15vw 12vw 10vw 10vw 10vw; font-size: 6vw; gap: 1vw;}
-.boxhometeam, .boxawayteam {font-size: 5vw;}
+.boxhomename, .boxawayname {font-size: 5vw;}
 
 
 /* posizionamento tabella */
 
 .boxhomesets {grid-column: 2/3; grid-row: 2/3; justify-content:center; align-items:center;}
-.boxhometeam { grid-column: 2/3; grid-row: 3/4; justify-content:center; align-items:center;}
+.boxhomename { grid-column: 2/3; grid-row: 3/4; justify-content:center; align-items:center;}
 .boxhomepoints {grid-column: 2/3; grid-row: 4/5; justify-content:center; align-items:center;}
 
 
 .boxawaysets {grid-column: 4/5; grid-row: 2/3; justify-content:center; align-items:center;}
-.boxawayteam { grid-column: 4/5; grid-row: 3/4; justify-content:center; align-items:center;}
+.boxawayname { grid-column: 4/5; grid-row: 3/4; justify-content:center; align-items:center;}
 .boxawaypoints {grid-column: 4/5; grid-row: 4/5; justify-content:center; align-items:center;}
 
 .labelsets {grid-column: 2/5; grid-row: 2/3; justify-content:center; align-items:center;}
