@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+:root {
+--linkmassa: url("https://i.ibb.co/mTdNXNd/logo21.png");
+--linkbudrio: url("https://i.ibb.co/3dd2R29/budrio.png");
+--linkeurotec: url("https://i.ibb.co/QJyksts/progresso.png");
+--linkelenos: url("https://i.ibb.co/TBX34LY/elenos.png");
+--linkanzola: url("https://i.ibb.co/6mcWsr7/anzola.png"); 
+--linkmasi: url("https://i.ibb.co/0m8x7WN/polmasi.png"); 
+--linklugo: url("https://i.ibb.co/VM3dxWF/involley.png");  
+--linkpontevecchio: url("https://i.ibb.co/qn9H4hd/pontevecchio.png"); 
+--linkdmgroup: url("https://i.ibb.co/J21GFxT/vtb.png");   
+--linkargelato: url("https://i.ibb.co/LJ4LhcH/argelato.png"); 
+--linkcervia: url("https://i.ibb.co/K6b4LyD/logo.png"); 
+--linkparma: url("https://i.ibb.co/pyd77q8/parma.png");
+--linkrimini: url("https://i.ibb.co/KVymLqd/rimini.png");
+}
+
+.box, .space, .label {display:flex; justify-content:center; align-items:center;}
+.container {display:grid; float:left; font-family: 'Roboto Mono', monospace; justify-content:center;}
+.sgrlogo, .boxservice {display:none;}
+.boxhometeam {background: rgba(35,3,255,255);color: white;}
+.boxawayteam {background: rgba(255,255,255,255);color: rgba(35,3,255,255);}
+.labelsets, .boxhomesets, .boxawaysets {background: rgba(255,20,134,255);color: white;}
+.labelpoints, .boxpoints {background: rgba(130,130,130,255);color: white;}
+
+
+/*---- VOLLEY --------*/
+.containervolley {width: auto; float: left; grid-template-columns: auto auto 15vw 40vw 18vw; font-size: 12vw; gap: 1vw}
+.boxhometeam, .boxawayteam {position: relative; justify-content: flex-end; padding: 0 3vw}
+/* Home Logo */
+.boxhometeam:before {content:""; position:relative; top:0; left:0; width:40%; height:100%; background:var(--linkmassa) no-repeat left;background-size:90%;}
+/*  Away Logo */
+.boxawayteam:before {content:""; position:relative; top:0; left:0; width:40%; height:100%; background:var(--linkrimini) no-repeat left;background-size:90%;}
+
+
+/* posizionamento tabella */
+.boxhometeam, .boxawayteam { grid-column: 4/5;}
+.boxhomesets{grid-column: 3/4;grid-row: 2/3;}
+.boxawaysets {grid-column: 3/4;grid-row: 3/4;}
+.boxhomepoints, .boxawaypoints {grid-column: 5/6;}
+.labelsets {grid-column: 3/4;grid-row: 1/2;}
+.labelpoints {grid-column: 5/6;}
+
+.labelsets, .labelpoints {font-size:.35em}
+
+/*angoli arrotondati*/
+.boxhomepoints {border-top-right-radius: 2vw;}
+.boxawaypoints {border-bottom-right-radius: 2vw;}
+.boxhomesets {border-top-left-radius: 2vw;}
+.boxawaysets {border-bottom-left-radius: 2vw;}
+.labelsets {border-bottom-left-radius: 2vw;border-top-left-radius: 1vw;}
+.labelpoints {border-bottom-right-radius: 2vw;border-top-right-radius: 1vw;}
+
+
